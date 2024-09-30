@@ -268,6 +268,7 @@ header{
 		transition: all .3s ease-in-out;
 		z-index: 100;
 		background-color: #fff;
+		gap: 30px;
 	}
 
 	.close-menu , .open-menu {
