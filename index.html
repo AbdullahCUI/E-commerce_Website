@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 	<link rel="stylesheet" href="./css/sytle.css">
+	<link rel="stylesheet" href="./css/slider.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<title>Ecommerce</title>
 </head>
 <body>
@@ -94,70 +96,28 @@
 		</header>
 	</div>
 
-	<section class="catagoires">
-		<div class="catagoires-content flex align-item-center">
+	<section class="categories">
+		<div class="categories-content flex align-item-center">
 
-			<div class="catagoires-description flex">
-				<div class="catagoires-description__text">
-					<h3 class="catagoires-description-title">New Arrivals</h3>
-					<p class="catagoires-description-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
+			<div class="categories-description flex">
+				<div class="categories-description__text">
+					<h3 class="categories-description-title">New Arrivals</h3>
+					<p class="categories-description-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
 				</div>
 
-				<span class="catagoires-cta flex justify-content-center">
-					<a href="#" class="catagoires-cta_link">Men’s Fashion</a>
-					<a href="#" class="catagoires-cta_link catagoires-cta_colored">Women’s Fashion</a>
-					<a href="#" class="catagoires-cta_link">Women Accessories</a>
-					<a href="#" class="catagoires-cta_link">Men Accessories</a>
-					<a href="#" class="catagoires-cta_link">Discount Deals</a>
+				<span class="categories-cta flex justify-content-center">
+					<a href="#" class="categories-cta_link">Men’s Fashion</a>
+					<a href="#" class="categories-cta_link categories-cta_colored">Women’s Fashion</a>
+					<a href="#" class="categories-cta_link">Women Accessories</a>
+					<a href="#" class="categories-cta_link">Men Accessories</a>
+					<a href="#" class="categories-cta_link">Discount Deals</a>
 				</span>
 			</div>
 
-			<div class="catagoires-content__cards flex justify-content-center">
+			<div class="categories-content__cards flex justify-content-center">
 
-				<div class="catagoires-content__card-collection">
-					<a href="#"><img src="./assets/images/NewArrivals/ImgOne.svg" alt="img"></a>
-
-					<div class="card-content flex">
-						<span class="card-content__info flex justify-content-between align-item-center">
-							<span class="card-content__info-txt">
-								<h4>Shiny Dress</h4>
-								<p>Al Karam</p>
-							</span>
-
-							<span>
-								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
-								</svg>
-
-								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
-								</svg>
-
-								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
-								</svg>
-
-								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
-								</svg>
-
-								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
-								</svg>
-							</span>
-						</span>
-
-						<p class="card-content-paragraph">(4.1k) Customer Reviews</p>
-
-						<span class="card-content__price-container flex align-item-center justify-content-between">
-							<h4>$95.50</h4>
-							<p>Almost Sold Out</p>
-						</span>
-					</div>
-				</div>
-
-				<div class="catagoires-content__card-collection">
-					<a href="#"><img src="./assets/images/NewArrivals/ImgTwo.svg" alt="img"></a>
+				<div class="categories-content__card-collection">
+					<a href="#"><img src="./assets/images/NewArrivals/ImgOne.svg" loading="eager" alt="img"></a>
 
 					<div class="card-content flex">
 						<span class="card-content__info flex justify-content-between align-item-center">
@@ -198,8 +158,8 @@
 					</div>
 				</div>
 
-				<div class="catagoires-content__card-collection">
-					<a href="#"><img src="./assets/images/NewArrivals/ImgThree.svg" alt="img"></a>
+				<div class="categories-content__card-collection">
+					<a href="#"><img src="./assets/images/NewArrivals/ImgTwo.svg" loading="eager" alt="img"></a>
 
 					<div class="card-content flex">
 						<span class="card-content__info flex justify-content-between align-item-center">
@@ -240,8 +200,8 @@
 					</div>
 				</div>
 
-				<div class="catagoires-content__card-collection">
-					<a href="#"><img src="./assets/images/NewArrivals/imgFour.svg" alt="img"></a>
+				<div class="categories-content__card-collection">
+					<a href="#"><img src="./assets/images/NewArrivals/ImgThree.svg" loading="eager" alt="img"></a>
 
 					<div class="card-content flex">
 						<span class="card-content__info flex justify-content-between align-item-center">
@@ -282,8 +242,8 @@
 					</div>
 				</div>
 
-				<div class="catagoires-content__card-collection">
-					<a href="#"><img src="./assets/images/NewArrivals/imgFive.svg" alt="img"></a>
+				<div class="categories-content__card-collection">
+					<a href="#"><img src="./assets/images/NewArrivals/imgFour.svg" loading="eager" alt="img"></a>
 
 					<div class="card-content flex">
 						<span class="card-content__info flex justify-content-between align-item-center">
@@ -324,8 +284,50 @@
 					</div>
 				</div>
 
-				<div class="catagoires-content__card-collection">
-					<a href="#"><img src="./assets/images/NewArrivals/imgSixth.svg" alt="img"></a>
+				<div class="categories-content__card-collection">
+					<a href="#"><img src="./assets/images/NewArrivals/imgFive.svg" loading="eager" alt="img"></a>
+
+					<div class="card-content flex">
+						<span class="card-content__info flex justify-content-between align-item-center">
+							<span class="card-content__info-txt">
+								<h4>Shiny Dress</h4>
+								<p>Al Karam</p>
+							</span>
+
+							<span>
+								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+								</svg>
+
+								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+								</svg>
+
+								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+								</svg>
+
+								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+								</svg>
+
+								<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M11.6646 7.12771L9.5 0L7.33536 7.12771H0L5.93479 11.742L3.73214 19L9.5 14.5146L15.2679 19L13.0652 11.742L19 7.12771H11.6646Z" fill="#FCA120"/>
+								</svg>
+							</span>
+						</span>
+
+						<p class="card-content-paragraph">(4.1k) Customer Reviews</p>
+
+						<span class="card-content__price-container flex align-item-center justify-content-between">
+							<h4>$95.50</h4>
+							<p>Almost Sold Out</p>
+						</span>
+					</div>
+				</div>
+
+				<div class="categories-content__card-collection">
+					<a href="#"><img src="./assets/images/NewArrivals/imgSixth.svg" loading="eager" alt="img"></a>
 
 					<div class="card-content flex">
 						<span class="card-content__info flex justify-content-between align-item-center">
@@ -368,6 +370,41 @@
 			</div>
 
 			<a href="#" class="singUp-cta">View More</a>
+		</div>
+	</section>
+
+	<section class="folowers-section">
+		<div class="folowers-section-content flex align-item-center">
+			<div class="folowers-section-content_txt">
+				<h5>Follow Us On Instagram</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
+			</div>
+
+			<div class="folowers-section-content_images flex align-item-center">
+				<a href="#"><img src="./assets/images/Users/imgOne.svg" alt="img"></a>
+				<a href="#"><img src="./assets/images/Users/imgTwo.svg" alt="img"></a>
+				<a href="#"><img src="./assets/images/Users/imgThree.svg" alt="img"></a>
+				<a href="#"><img src="./assets/images/Users/imgFour.svg" alt="img"></a>
+				<a href="#"><img src="./assets/images/Users/imgFive.svg" alt="img"></a>
+				<a href="#"><img src="./assets/images/Users/imgSixth.svg" alt="img"></a>
+				<a href="#"><img src="./assets/images/Users/imgSeven.svg" alt="img"></a>
+			</div>
+		</div>
+	</section>
+
+	<section class="subscribe-newsletter">
+		<div class="subscribe-newsletter-content flex align-item-center">
+			<img src="./assets/images/Subcriber/imgOne.svg" alt="img">
+
+			<div class="subscribe-newsletter-text flex align-item-center">
+				<span>
+					<h4>Subscribe To Our Newsletter</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin </p>
+					<p>michael@ymail.com</p>
+				</span>
+				<a href="#" class="singUp-cta">Subcribe</a>
+			</div>
+			<a href="#"><img src="./assets/images/Subcriber/imgTwo.svg" alt="img"></a>
 		</div>
 	</section>
 </body>
