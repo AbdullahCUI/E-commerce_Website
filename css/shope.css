@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import '../css/sytle.css';
+
+body {
+  font-family: "Volkhov", serif;
+}
+
+.select-item {
+  border: 0;
+  cursor: pointer;
+}
+
+.icon-bar {
+  gap: 70px;
+  align-items: center;
+  font-size: 0;
+}
+
+.nav-icon {
+  display: none;
+  background: #000;
+}
+
+@media (max-width:992px) {
+ .icon-bar {
+  display: none;
+ }
+
+ .nav-icon {
+  display: block;
+ }
+}
+
+.shopping-categories-content {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.shopping-categories-content_nav-bar h4 {
+  font-size: 42px;
+  line-height: 1.6;
+}
+
+.shopping-categories-content_nav-bar span {
+  gap: 15px;
+}
+
+.shopping-categories-content_nav-bar span a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
