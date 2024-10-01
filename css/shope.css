@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import '../css/sytle.css';
 
+:root {
+  --sm-font-size:15px;
+  --medium-font-size:20px;
+  --lg-font-size:30px;
+  --primary-font-color: #000;
+}
 body {
   font-family: "Volkhov", serif;
 }
@@ -49,4 +55,124 @@ body {
   text-decoration: none;
   font-size: 15px;
   color: #000;
+}
+
+.collection-options {
+  max-width: 322px;
+}
+
+.shopping-categories-section-nav-bar h5 {
+  font-size: var(--medium-font-size);
+  font-weight: var(--font-size-regular);
+  color: var(--primary-font-color);
+}
+
+.shopping-categories-section-nav-bar span {
+  max-width: 150px;
+  gap: 12px;
+}
+
+.shopping-categories-section-nav-bar span a {
+  text-decoration: none;
+  color: var(--secodary-font-color);
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid var(--secodary-font-color);
+}
+
+.collection-colors h5 {
+  font-size: var(--medium-font-size);
+  text-transform: capitalize;
+  line-height: 2;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.colorOne {
+  background: #FF6C6C;
+}
+
+.colorTwo {
+  background: #FF7629;
+}
+
+.colorThree {
+  background: #FFF06C;
+}
+
+.colorfour {
+  background: #9BFF6C;
+}
+
+.colorFive {
+ background: #6CFF9E;
+}
+
+.colorSixth {
+  background: #6CFFDC;
+}
+
+.colorSeven {
+  background: #6CB9FF;
+}
+
+.colorEight {
+  background: #6CF6FF;
+}
+
+.colorNine {
+  background: #6CA7FF;
+}
+
+.colorX {
+  background: #6C7BFF;
+}
+
+.colorXI {
+ background: #8A6CFF;
+}
+
+.colorXII {
+ background: #B66CFF;
+}
+
+.colorXIII {
+ background: #FC6CFF;
+}
+
+.colorIV {
+ background: #FF6C6C;
+}
+
+.colors-container {
+  gap: 12px 12px;
+  flex-wrap: wrap;
+}
+
+.collection-options {
+  flex-direction: column;
+  gap: 33px;
+}
+
+.collection-options h4 {
+  font-size: var(--lg-font-size);
+}
+
+.collection-prices {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.collection-prices h5 {
+ font-size: 18px;
+ font-weight: var(--font-size-regular);
+}
+
+.price_content p {
+  color: var(--secodary-font-color);
+  line-height: 2;
 }
