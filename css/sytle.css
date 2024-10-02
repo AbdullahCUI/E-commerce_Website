@@ -92,6 +92,7 @@ header{
 
 .nav-bar li a {
 	text-decoration: none;
+	color: var(--secodary-font-color);
 }
 
 
@@ -496,6 +497,7 @@ header{
 	.folowers-section-content_images {
 		flex-wrap: wrap;
 		justify-content: center;
+		gap: 30px;
 	}
 }
 
@@ -691,6 +693,11 @@ input {
 	.collection-cotainer, .collection-features {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.collection-cotainer__info {
+		align-items: center;
+    text-align: center;
 	}
 }
 
