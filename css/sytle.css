@@ -699,6 +699,10 @@ input {
 		align-items: center;
     text-align: center;
 	}
+
+	.categories-content__card-collection {
+		max-width: 100%;
+	}
 }
 
 @media (max-width:500px) {
