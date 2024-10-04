@@ -36,8 +36,12 @@ body {
  .nav-icon {
   display: block;
  }
+
 }
 
+.singUp-cta::after {
+  background: #141f27;
+}
 .shopping-categories-content {
   max-width: 1280px;
   margin-inline: auto;
