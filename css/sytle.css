@@ -700,8 +700,12 @@ input {
     text-align: center;
 	}
 
-	.categories-content__card-collection {
+	.categories-content__card-collection, .categories-content__cards {
 		max-width: 100%;
+	}
+
+	.categories-content__card-collection a img {
+		width: 100%;
 	}
 }
 
